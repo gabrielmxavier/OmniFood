@@ -1,0 +1,244 @@
+
+
+/* BIG TABLETS TO 1200PX */
+
+@media only screen and (max-width: 1200px) {
+    
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { padding: 0 3%; }
+
+    
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { 
+        margin-bottom: 60px;
+        padding-right: 70px;
+    }
+
+
+    .works-step { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 40px;  }
+
+    .btn-app img {
+        left: 50px;
+    }
+
+
+    
+}
+
+
+/* TABLETS FORM 768PX TO 1023 */
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+
+    section { padding: 60px 0; }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+        
+    .icon-big {
+        color: #ff5200;
+        font-size: 170%;
+        display: block;
+        margin-bottom: 20px;
+        margin-top: 26px;
+        position: relative;
+        left: 0;
+    }
+
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { 
+        margin-bottom: 60px;
+        padding-right: 70px;
+    }
+
+    .works-step { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 40px;  }
+    
+    .works-step p {
+        text-align: justify;
+        font-size: 17px;
+    }
+    
+    .city-feature { font-size: 15px; }
+
+    .app-screen { width: 50%; }
+
+    .btn-app img {
+        left: 20px;
+        height: 38px;
+    }
+
+    .plan-price { font-size: 250%;}
+
+    .plan-box ul li {
+        padding: 3px 0;
+        font-size: 16px;
+    }
+
+    .contact-form { width: 80%; }
+
+    footer { padding: 30px; }
+
+    footer p { margin-top: 0px; }
+
+    .footer-nav li,
+    .social-links li {
+        display: block;
+        margin-right: 10px;
+}
+
+}
+
+
+
+/* BIG SMARTPHONES FROM 481PX TO 767 PX */
+
+@media only screen and (max-width: 767px) {    
+
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    .hero-text-box h1 { font-size: 33px; }
+
+    .icon-big { position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+    }
+
+    .section-features p { 
+        font-size: 23px;
+        text-align: justify;
+    }
+    
+    .long-copy { 
+        width: 100%;
+        margin-left:  0%;
+    }
+
+    h3 { 
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .section-steps p { font-size: 20px; }
+
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type { margin-bottom: 20px;  }
+
+    .works-step div {
+        border-radius: 50%;
+        height: 47px;
+        width: 47px;
+        padding: 4px;
+        text-align: center;
+        font-size: 150%;
+        margin-right: 15px;
+    }
+    
+    .steps-box:last-child { text-align: center; }
+    
+
+    .btn-app img { 
+        position: relative;
+        left: 40px;
+        height: 50px;
+    }
+
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav { display: none; }
+    
+
+    .mobile-nav-icon { display: inline-block; }
+
+    .main-nav {
+        float: left;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 8px 0;
+        font-size: 100%;
+    }
+
+        
+    .sticky .main-nav { margin-top: 1px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 8px 0; }
+    .sticky .mobile-nav-icon { margin-top: 1px; }
+    .sticky .mobile-nav-icon ion-icon { color:#555; }
+
+    .sticky .logo { display: none; }
+    .sticky .logo-black { 
+        margin-top: 8px;
+    }
+
+
+    .city-feature {
+        text-align: left;
+        position: relative;
+        left: 130px;
+    }
+
+    .box img { 
+        width: 80%;
+        height: auto;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .contact-form { width: 100%; }
+
+    .footer-nav li,
+    .social-links li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .footer-nav li {
+        position: relative;
+        left: 15px;
+    }
+
+    .social-links li {
+        position: relative;
+        right: 125px;
+    }
+
+}
+
+
+
+/* SMARTPHONES  FROM 0 TO 480PX */
+
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact-form { width: 100%; }
+}
+
+
+
