@@ -1,5 +1,5 @@
 # website_theme_food_delivery
-Website theme for a  fictional company called OmniFood.
+Website theme for a  fictional company called OmniFood. Jquery was used in this project.
 
 
 A website for a fictional company called OmniFood.
